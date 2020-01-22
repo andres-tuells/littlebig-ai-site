@@ -45,6 +45,7 @@
     "start": "gatsby develop",
     "clean": "gatsby clean",
     "start:public": "gatsby develop -H 0.0.0.0",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "release": "npm run build & rm -rf docs| cp -R public docs"
   }
 }
